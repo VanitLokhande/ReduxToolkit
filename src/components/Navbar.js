@@ -10,7 +10,7 @@ const Navbar = () => {
             <span>Redux</span>
             <div>
                 <Link className='navlink' to="/Cart">Cart</Link>
-                <Link className='navlink' to="/home">Home</Link>
+                <Link className='navlink' to="/">Home</Link>
                 <span className='cart-I'>Cart Items - {items.length}</span>
             </div>
            
